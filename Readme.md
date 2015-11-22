@@ -1,21 +1,21 @@
 # Twitter-Sentiment analysis
 Perform twitter sentiment analysis using Apache Spark Streaming. 
 
-##### You need
+### You need
  * Intelli-J with Scala plugin
  * Registered a Twitter application at https://apps.twitter.com and sign in with your twitter account and created an application.<br/>
    You will get \<consumer key> \<consumer secret> \<access token> \<access token secret>
    
-##### Configuration
+### Configuration
  * Import the project as SBT project
  * It uses scala version: `2.10.4` and Spark version: `1.4.1`. Update this if required inside build.sbt
  * Goto Run -> Edit configuration -> Program Arguments
  * Enter 4 params: consumerKey consumerSecret accessToken accessTokenSecret
 
-##### To Run
+### To Run
   * Run -> Run TwitterSentimentAnalysis
 
-##### Sample output
+### Sample output
     Tweet:Currently watching Beauty Beast 	 Pos:0	 Neg:0	 Neutral:1
     Tweet:The Best  Bodybuilding Supplements For Hardgainers
     httpstcoVsjveOOcPH httpstcovbbCCbz 	 Pos:0	 Neg:0	 Neutral:1
@@ -68,5 +68,6 @@ Perform twitter sentiment analysis using Apache Spark Streaming.
     Positive: 39 Negative:19 Neutral:146
 
 
-
+### License
+MIT
 
