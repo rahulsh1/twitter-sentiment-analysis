@@ -1,6 +1,9 @@
 # Twitter-Sentiment analysis
 Perform twitter sentiment analysis using Apache Spark Streaming. 
 
+This scala program accumulates count of positive, negative and neutral sentiment tweets and print out them every 10 seconds with 10 second sliding window
+    
+
 ### You need
  * Intelli-J with Scala plugin
  * Registered a Twitter application at https://apps.twitter.com and sign in with your twitter account and created an application.<br/>
